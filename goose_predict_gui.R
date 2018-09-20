@@ -230,7 +230,7 @@ get_goose_paras <- function(data, init_params = NULL){
                            pgtol = 0);
     # Run optimisation routine, using the goose_growth() function, goose_data and init_params
     get_parameters <- optim(par = init_params, fn = goose_growth, data = data,
-                            method = "BFGS", control = contr_paras, 
+                            method = "BFGS", control = contr_paras,
                             hessian = TRUE);
     
     # Updates progress bar when running as Shiny app

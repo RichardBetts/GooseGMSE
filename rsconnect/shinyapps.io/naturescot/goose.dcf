@@ -1,0 +1,12 @@
+name: goose
+title: goose
+username:
+account: naturescot
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3107726
+bundleId: 3789020
+url: https://naturescot.shinyapps.io/goose/
+when: 1603826150.10394
+asMultiple: FALSE
+asStatic: FALSE
